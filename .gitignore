@@ -1,0 +1,14 @@
+# Ignoring virtual environment
+venv/
+
+# Store the Krabby Patty Secret Formula here... Plus API Keys
+.env
+
+.idea/
+
+__pycache__/
+*.py[cod]
+
+*.log
+*.sqlite3
+.DS_Store
