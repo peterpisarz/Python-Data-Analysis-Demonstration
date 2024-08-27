@@ -64,7 +64,8 @@ def get_run_number(directory):
 
 def create_run():
     # Directory for storing engine run data
-    directory = r'C:\Users\peter\PycharmProjects\Python-Data\engine_runs'
+    current_directory = os.path.dirname(os.path.abspath(__file__))
+    directory = os.path.join(current_directory, 'engine_runs')
     os.makedirs(directory, exist_ok=True)
 
     # Get the next run number
