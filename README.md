@@ -1,5 +1,12 @@
 # Python Data Demonstration
 
+## Update: 8/27/2024
+- Engine data stored in json structure. See engine_runs directory.
+- A simple Plotly Dashboard has been created to view and interact with stored engine data
+- Select the Engine Run from the dropdown list and the parameter to plot
+- Three engine run files have been added as dummy data. Run app.py to test for yourself
+![Dashboard Screenshot](assets/Dashboard_Example.png)
+  
 ## Data Analysis Examples using Automobile Engine Data
 
 I've created this project to demonstrate some standard python data analysis. 
@@ -72,6 +79,7 @@ project could be:
 1. Creating a Dashboard front end for interactive data visualization. Often this is done 
 with the Plotly library. I would likely add radio buttons to toggle parameters over time. 
    In this way you could turn parameter "on and off" against others for quickly visibility. 
+(UPDATE: Completed 8/27/2024 - run app.py to use Dashboard via Flask)
 
    
 2. If the Plotly dashboard indicated that there may be correlation between certain 
